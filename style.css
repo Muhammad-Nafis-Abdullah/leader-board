@@ -1,0 +1,269 @@
+/*----------------------------------
+    imported font
+----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+/*--------------------------------*/
+
+/*----------------------------------
+    utitlites
+----------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #562EFF;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    width: 226px;
+}
+.text-purple{
+    color: #562EFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*--------------------------------*/
+
+
+/*----------------------------------
+    header
+----------------------------------*/
+header{
+    height: 94px;
+    width: 100%;
+    background-color: #562EFF;
+    padding: 23px 289px 17px 285px;
+}
+
+
+/*--------------------------------*/
+
+/*----------------------------------
+    main
+----------------------------------*/
+main{
+    background: #E5E5E5;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+    /*----------------------------------
+        player-blog
+    ----------------------------------*/
+    .player-blog{
+        margin-top: 36px;
+        margin-bottom: 21px;
+        max-width: 870px;
+        height: 679px;
+        border-radius: 5px;
+        background: #FFFFFF;
+        padding:33px 30px 42px;
+    }
+        /*----------------------------------
+            top-player
+        ----------------------------------*/
+        .top-player{
+            margin: 40px 0 30px;
+            display: grid;
+            grid-template-columns: repeat(2,294px) 222px;
+            grid-row-gap: 29px;
+        }
+        .player-card{
+            display: flex;
+            align-items: center;
+        }
+        .player-card img{
+            width: 56px;
+            height: 56px;
+        }
+        .player-card h3{
+            font-size: 18px;
+            line-height: 27px;
+            font-family: 'Poppins', sans-serif;
+            margin-left: 16px;
+        }
+        
+        
+        /*--------------------------------*/
+        hr{
+            border: 1px solid #D1D1D1;
+            margin-bottom: 30px;
+        }
+        /*----------------------------------
+            top-blog
+        ----------------------------------*/
+        .top-blog{
+            margin-top: 31px;
+            display: grid;
+            grid-template-columns: 390px 374px;
+            grid-row-gap: 26px;
+            justify-content: space-between;
+        }
+        .blog-card{
+            display: flex;
+        }
+        .blog-card img{
+            height: 117px;
+            width: 177px;
+        }
+        .blog-text{
+            margin-left: 16px;
+        }
+        .blog-text h3{
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 34px;
+            text-align: left;
+        }
+        .blog-text p{
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #9F9F9F;
+            margin-top: 6px;
+        }
+        /*--------------------------------*/
+        
+    /*--------------------------------*/
+    
+    /*----------------------------------
+        latest-courses
+    ----------------------------------*/
+    .latest-courses{
+        width: 870px;
+        height: 362px;
+        background: #FFFFFF;
+        padding: 23px 36px 22.21px 28px;
+        margin-bottom: 28px;
+        border-radius: 5px;
+    }
+        /*----------------------------------
+            latest-courses title
+        ----------------------------------*/
+        .latest-courses h2{
+            margin-left: 5px;
+        }
+            
+            
+        /*--------------------------------*/
+        /*----------------------------------
+            course-area
+        ----------------------------------*/
+        .course-area{
+            display: grid;
+            grid-template-columns: repeat(3,252.42px);
+            justify-content: space-between;
+            margin-top: 11px;
+        }           
+            /*----------------------------------
+                course-card
+            ----------------------------------*/
+            .course-card{
+                padding: 13px 12.02px 16.03px 11px;
+                box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+            }
+            .course-card img{
+                width: 224.38px;
+                height: 105.51px;
+                margin-bottom: 16.03px;
+            }
+            .course-card h4{
+                margin-bottom: 7.17px;
+                font-size: 20px;
+                font-family: roboto;
+                font-weight: 500;
+            }
+            .course-card p{
+                margin-bottom: 12.57px;
+            }
+            
+            /*----------------------------------
+                info
+            ----------------------------------*/
+            .info{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+                /*----------------------------------
+                    rating
+                ----------------------------------*/
+                .rating{
+
+                }
+                .fa-star{
+                    font-size: 11.81px;
+                    color: #AEAEAE;
+                }
+                .fa-star.fill{
+                    color: #FFC014;
+                }
+                .rating pre{
+                    display: inline;
+                    font-family: poppins;
+                    font-size: 14.69px;
+                    line-height: 22.04px;
+                    color: #A2A2A2;
+                }
+                
+                /*--------------------------------*/
+                /*----------------------------------
+                    time duration
+                ----------------------------------*/
+                .info span{
+                    color:#FF4A60;;
+                    font-size: 15px;
+                    line-height: 20.01px;
+                    height: 29.3px;
+                    width: 94.8px;
+                    border-radius: 14.6px;
+                    background-color: #FFE4E8;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 5.34px;
+                }
+                .fa-clock{
+                    font-size: 16.69px;
+                }
+                
+                /*--------------------------------*/
+                
+                
+                
+            
+            
+            /*--------------------------------*/
+            
+            
+            /*--------------------------------*/
+            
+            
+        
+        
+        /*--------------------------------*/
+    
+    
+    
+    /*--------------------------------*/
+    
+    
+/*--------------------------------*/
+
